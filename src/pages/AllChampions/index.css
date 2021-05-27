@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  background-image: url("https://static2.lolwallpapers.net/2015/01/shadow_isles.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.logo img {
+  width: 400px;
+}
+
+.champions-container {
+  width: 100%;
+  padding: 0 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}

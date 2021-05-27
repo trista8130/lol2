@@ -1,0 +1,42 @@
+.champion-container {
+  padding: 100px 20px;
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/9112b576009313.5c5ca8e8c45c3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ebe7e7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.champion-container h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.champion-container .info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  width: 800px;
+}
+
+.skins-container {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.skins-container .skin-block {
+  width: 100%;
+}
+
+.skin-block img {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-right: 10px;
+}
