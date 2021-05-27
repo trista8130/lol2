@@ -1,4 +1,4 @@
-const baseUrl = "http://ddragon.leagueoflegends.com/cdn/10.4.1/data/en_US";
+const baseUrl = "https://ddragon.leagueoflegends.com/cdn/10.4.1/data/en_US";
 
 const fetchAll = () => {
   return fetch(`${baseUrl}/champion.json`).then((response) => {

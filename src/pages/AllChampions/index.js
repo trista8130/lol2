@@ -5,6 +5,7 @@ import ChampionServices from "../../services/champions";
 
 function AllChampionsPage() {
   const [champions, setChampions] = useState();
+  console.log(champions);
 
   useEffect(() => {
     const fetchAllChampions = async () => {
