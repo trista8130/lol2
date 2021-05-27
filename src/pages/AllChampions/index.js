@@ -19,10 +19,7 @@ function AllChampionsPage() {
   return (
     <div className="App">
       <div className="logo">
-        <img
-          src="https://www.pngmart.com/files/3/League-of-Legends-Logo-PNG-Image.png"
-          alt=""
-        />
+       <h1>LEAGUE of LEGENDS</h1>
       </div>
       <div className="champions-container">
         {champions &&
